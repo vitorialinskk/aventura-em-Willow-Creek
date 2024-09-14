@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Aventura em Willow Creek</title>
+
+
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.webp" alt="">
+            <p>Um dia desses, passeando pelas ruas de Willow Creek, você avistou uma árvore com folhagem rosa. Ao observar mais, percebeu uma abertura no tronco da árvore.</p>
+            <button class="btn-proximo" data-proximo="1"> Entrar na árvore</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>O tronco é bem maior do que o esperado! Está escuro... mas de certa forma, não é assustador. Um brilho suave é a única luz e um borbulhar é o único som.</p>
+            <button class="btn-proximo" data-proximo="2">Seguir o som</button>
+            <button class="btn-proximo" data-proximo="3">Seguir a luz</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você vai um pouco mais afundo, o que aumenta a escuridão. Um respingo baixo indica que você acabou de pisar em uma corrente rasa.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir contra a corrente</button>
+            <button class="btn-proximo" data-proximo="4">Seguir na direção da corrente</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao seguir a luz você reencontra a entrada e volta para o início. Atualize a página para tentar novamente.</p>    
+        </div>
+       
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.webp" alt="">
+            <p>Seguindo o caminho com menor esforço e torcendo para não ir parar num esgoto, você se distrai com uma névoa etérea que brilha de forma procupante.</p>
+            <button class="btn-proximo" data-proximo="6">Entrar na névoa</button>
+            <button class="btn-proximo" data-proximo="7">Desviar da névoa</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Ao seguir contra a corrente, você reencontra a entrada e volta para o início. Atualize a página para tentar novamente.</p>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>A névoa é calorosa e amigável, até onde uma névoa pode ser. Sem nenhum aviso, você sente seu corpo girando até que se depara com uma saída da caverna.</p>
+            <button class="btn-proximo" data-proximo="9">Voltar à entrada da árvore</button>
+            <button class="btn-proximo" data-proximo="8">Entrar na clareira</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Ao desviar da névoa, você reencontra a entrada e volta para o início. Atualize a página para tentar novamente.</p>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo8.webp" alt="">
+            <p>Dentro da  clareira escondida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar este lugar.</p>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Você desiste de explorar a clareira escondida e fica se perguntando o que teria encontrado. Atualize a página para jogar novamente.</p>
+        </div>
+
+
+     </main>
+     <script src="script.js"></script>
+    
+</body>
+</html>

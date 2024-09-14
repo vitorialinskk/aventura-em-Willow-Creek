@@ -1,0 +1,39 @@
+body{
+    background-color: plum;
+    color:antiquewhite;
+    font-family: "Arvo", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
+    font-size: 25px;
+    border-block: solid 5px purple;
+}
+header {
+    height: 675px;
+    margin:10px;
+    border-bottom: solid 10px black;
+}
+button{
+    background-color: antiquewhite;
+    font-family: "Arvo", serif;
+    font-size: 15px;
+}
+
+.passo {
+    display:none;
+}
+
+.passo.ativo{
+    display:block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 50%;
+}
